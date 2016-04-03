@@ -1,0 +1,78 @@
+#header-nav {
+  background-color: #33DD48;
+  border-radius: 0;
+  border: 0;
+}
+
+h1 {
+  margin: 0px;
+  color: black;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-top: 0px;
+  /* text-align: center; */  /* 
+  I believe that since CSS does not allow inheritance in styles 
+   (so we can't do something like h3 { inherits-from: "text-center"; })
+   it is a better idea to put formatting into elements or classes that correspond to multiple web page parts 
+   in one place, so if we need to change this style, it can be done in one place rather than modification 
+   in multiple places in html file
+  */
+}
+
+
+
+body {  
+  margin: 0px;
+  padding: 0px;
+  /* padding-top: 90px;  Required to avoid overlapping for navbar-fixed-top */
+} 
+
+.recipe {
+  background-color: lightgrey;
+  padding: 12px;
+}
+
+article {
+  padding: 12px;
+}
+
+#nav-list {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  background-color: darkgreen;
+}
+
+#nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+#nav-list li:hover {
+  background-color: green;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  background-color: green;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+  background-color: darkgreen;
+}
+
+footer {
+  text-align: right;
+  font-style: italic;
+  font-size: 0.6em;
+}
