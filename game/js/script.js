@@ -244,6 +244,9 @@
   tc.stopPressed = function() {
     tc.started=false; 
     tc.playing=false; 
+    tc.character.x = 500;
+    tc.character.y = 500;
+    tc.drawCharacter();
     tc.rebuildMenuUI();
     tc.gameOver();
     $("#gameover-box").hide();    
@@ -381,6 +384,8 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 
   $(window).resize();
+  $("#gameover-box").hide();
+
 });
 
 
