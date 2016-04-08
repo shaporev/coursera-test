@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TarasChase</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div id="logo-img" alt="Logo image" class="pull-left"></div>
+          <div class="navbar-brand">
+            <span class="app-name">Chase for Taras</span>
+          </div>
+          <div>
+            <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <!--
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            -->
+
+            <li id="menu-play">
+              <a href="#" onclick="$tc.playPressed();">
+                <span class="glyphicon glyphicon-play"></span><br class="hidden-xs"> Start</a>
+            </li>
+            <li id="menu-continue">
+              <a href="#" onclick="$tc.continuePressed();">
+                <span class="glyphicon glyphicon-play"></span><br class="hidden-xs"> Continue</a>
+            </li>
+            <li id="menu-pause">
+              <a href="#" onclick="$tc.pausePressed();">
+                <span class="glyphicon glyphicon-pause"></span><br class="hidden-xs"> Pause</a>
+            </li>
+            <li id="menu-stop">
+              <a href="#" onclick="$tc.stopPressed();">
+                <span class="glyphicon glyphicon-stop"></span><br class="hidden-xs"> Stop</a>
+            </li>
+            <li>
+              <a href="about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+
+
+  <div id="main-content">
+    <div id="main-box">
+      <div id="score-info-box">
+        <span id="score"></span>
+      </div>      
+      <div id="game-box">
+        <div id="field-box"> </div>
+        <div id="exit-box"> </div>
+        <div id="character"></div>
+        <div id="bita"></div>
+      </div>   
+      <div id="gameover-box">
+        <span id="gameover">GAME OVER!</span>
+      </div>     
+    </div>
+
+
+
+  </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+  /*cursor: none;*/
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding: 0px;
+}
+
+#logo-img {
+  background: url('../images/character-taras.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 0px 0px 0px 0px;
+}
+
+.navbar-header {
+  margin: 0px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin: 0px;
+  margin-top: 15px;
+}
+.app-name {
+  font-family: 'Lora', serif;
+  color: #61122f;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-left: 25px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -70px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+
+#score-info-box {
+    vertical-align: center;
+
+  width: 300px;
+  height: 130px;
+  background-color: #91223f;
+  border-color: #f6b319;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#gameover-box {
+    vertical-align: center;
+
+  width: 600px;
+  height: 130px;
+  background-color: #91223f;
+  border-color: #f6b319;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 20px;
+  position: absolute;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#score, #gameover {
+  vertical-align: middle;
+  font-size: 5em;
+  font-style: normal;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gameover-box {
+  /*visibility: hidden;*/
+}
+
+#game-box {
+  height: 200px;
+  /*background-color: black;*/
+  background-image: url("../images/brick.jpeg");
+  border-radius: 30px;
+  position: absolute;
+  margin: 0px;
+  cursor: none;
+
+}
+
+#field-box {
+  background-color: #61122f;
+  border-radius: 30px;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+}
+
+#exit-box {
+  background-color: #61122f;
+  border-radius: 0px;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+}
+
+#bita {
+  background-color: #f6b319;
+  border-radius: 50px;
+  position: absolute;
+  height: 30px;
+  width: 200px;
+  margin: 0px;
+}
+
+#character {
+    background-image:url('../images/character-taras.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+#main-box {
+    position: relative;
+    margin: 0px;
+}
+
+#main-content {
+}
+
+/* END MAIN CONTENT */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 25px;
+    height: 80px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+}
+
+
+@media (max-width: 479px) {
+
+}
+
+
+
